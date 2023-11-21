@@ -17,7 +17,7 @@ const getDataKaryawan = async (req, res) => {
 
     if (data) {
         res.send({
-            success: x,
+            success: true,
             message: "berhasil",
             data: data
         });
